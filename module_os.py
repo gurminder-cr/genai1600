@@ -20,9 +20,9 @@ import os
 # for i in range(0,10000000):
 #     os.removedirs(f"fol{i}")
  
-# a= os.getcwd()
-# if os.path.exists(f'{a}/folder2'):
-#     os.removedirs('folder2')
+a= os.getcwd()
+if os.path.exists(f'{a}/folder2'):
+    os.removedirs('folder2')
 
 
 # github-  
